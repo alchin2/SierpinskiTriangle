@@ -6,7 +6,7 @@ public void draw()
 {
 background(0, 0, 0);
   fill(256,256,256);
-sierpinski(20, 750, 720);
+sierpinski(20, 20, 720);
 }
 public void sierpinski(int x, int y, int len){
  if (len<=20){triangle(x,y,x+len,y-len,x+len,y);}
